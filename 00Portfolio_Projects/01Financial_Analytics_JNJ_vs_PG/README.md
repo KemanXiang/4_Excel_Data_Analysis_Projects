@@ -6,9 +6,8 @@ This project is a comparative financial and strategic analysis of
 **Johnson & Johnson (J&J)** and **The Procter & Gamble Company (P&G)**
 over fiscal years **2019--2021**.
 
-Originally developed from an MBA Financial Accounting group project,
-this version was substantially reconstructed and extended as an
-independent **financial analytics portfolio project**. The objective is
+Originally developed from an MBA Financial Accounting final project,
+this version was extended as an **financial analytics portfolio project**. The objective is
 to demonstrate how accounting data, corporate filings, and business
 information can be transformed into structured, decision-relevant
 insights using financial analysis and data analytics methods.
@@ -22,8 +21,7 @@ profiles.
 > **Portfolio purpose:** This repository demonstrates my
 > interdisciplinary preparation in financial analysis, business
 > analytics, data interpretation, and research-oriented problem solving
-> as part of my PhD applications in Business Analytics and related
-> fields.
+> skills in Business Analytics and related fields.
 
 ## Research Question
 
@@ -68,13 +66,6 @@ from the original project.
 -   Original MGT 211 final project report
 -   Supporting financial-ratio tables
 -   Original geographic-expansion Excel workbook
--   Reconstructed tables from the original report where raw spreadsheets
-    were no longer available
-
-Where possible, reconstructed figures were cross-checked against company
-filings. The portfolio also corrects analytical interpretations from the
-original coursework when they conflict with the underlying data or
-standard financial logic.
 
 ## Methods
 
@@ -123,25 +114,6 @@ the company's underlying operating performance.
 > **Financial analytics should explain the economic mechanisms behind
 > reported numbers, not simply rank companies by ratios.**
 
-## Data Quality and Analytical Corrections
-
-Reconstructing the original project also provided an opportunity to
-audit its methodology.
-
-For example, the original report stated that J&J had a *lower* interest
-coverage ratio and connected this to stronger solvency. The underlying
-data showed the opposite: **J&J's interest coverage was substantially
-higher than P&G's**. Because higher interest coverage generally
-indicates greater earnings capacity relative to interest expense, the
-portfolio version corrects this interpretation.
-
-Similarly, a calculation originally labeled an "average growth rate" was
-actually cumulative percentage growth from 2019 to 2021. The revised
-analysis distinguishes cumulative growth from CAGR.
-
-These corrections are documented rather than silently changing the
-historical project.
-
 ## Key Takeaway
 
 The analysis does not identify a universal financial "winner." Instead,
@@ -161,34 +133,14 @@ solvency, product mix, geography, and strategy must be analyzed
 jointly**. A single financial ratio rarely provides enough information
 to explain firm performance.
 
-## Suggested Repository Structure
+## Repository Structure
 
 ``` text
 financial-analytics-jnj-pg/
 ├── README.md
-├── report/
-│   └── Financial_Analytics_Portfolio_JNJ_vs_PG.pdf
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   └── financial_analysis.ipynb
-├── src/
-│   └── analysis.py
-├── figures/
-│   ├── profitability.png
-│   ├── liquidity.png
-│   ├── cash_conversion_cycle.png
-│   ├── interest_coverage.png
-│   ├── segment_growth.png
-│   └── geographic_growth.png
-└── references/
-    └── source_notes.md
+├── Report_Financial_Analytics_Portfolio_JNJ_vs_PG.pdf
+├── xlsx data
 ```
-
-> The repository can be expanded toward this fully reproducible
-> structure as the analytical workflow is migrated from the original
-> spreadsheet/PDF materials into code.
 
 ## Limitations
 
@@ -206,23 +158,11 @@ financial-analytics-jnj-pg/
 
 ## Project Provenance
 
-This project originated as a collaborative final project for an MBA
-Financial Accounting course, with tasks divided among group members.
-
-My original responsibility focused on the **World Expansion / Geographic
-Expansion** analysis, for which the underlying Excel workbook was
-retained.
-
-For this portfolio version, the complete project was reconstructed and
-extended into an integrated financial analytics study. All major
-sections are treated with equal analytical importance, including
-sections originally prepared by other group members. Where original
-spreadsheets were unavailable, historical tables were reconstructed from
-the final report and validated against primary company disclosures where
-possible.
+This project originated as a final project for an MBA
+Financial Accounting course.
 
 This provenance is disclosed to maintain transparency regarding the
-relationship between the original collaborative coursework and the
+relationship between the original project and the
 present portfolio project.
 
 ## Future Extensions
@@ -238,11 +178,10 @@ interactive dashboards, and applying statistical or econometric models.
 
 **Keman Xiang**
 
-MBA graduate with interests in **Business Analytics, Financial
+**MBA** graduate with a concentration on **Business Analysis** and interests in **Business Analytics, Financial
 Analytics, Data Analytics, and empirical business research**.
 
-This project is part of my research and analytical portfolio for PhD
-applications.
+This project is part of my research and analytical portfolio for PhD applications.
 
 ## Disclaimer
 
